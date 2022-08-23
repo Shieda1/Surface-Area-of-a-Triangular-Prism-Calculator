@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surface Area of a Triangular Prism Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="surfaceAreaofTriangularPrismRadio" name="variables" checked>
+  <label for="surfaceAreaofTriangularPrismRadio">Surface Area of Triangular Prism</label>
+
+  <input type="radio" id="trianglebaselengthRadio" name="variables" disabled>
+  <label for="trianglebaselengthRadio">Triangle base length</label>
+
+  <input type="radio" id="triangleheightRadio" name="variables" disabled>
+  <label for="triangleheightRadio">Triangle height</label>
+
+  <input type="radio" id="prismHeightRadio" name="variables" disabled>
+  <label for="prismHeightRadio">Prism Height</label>
+
+  <input type="radio" id="side1oftheTriangleRadio" name="variables" disabled>
+  <label for="side1oftheTriangleRadio">Side 1 of the Triangle</label>
+
+  <input type="radio" id="side2oftheTriangleRadio" name="variables" disabled>
+  <label for="side2oftheTriangleRadio">Side 2 of the Triangle</label>
+
+  <input type="radio" id="side3oftheTriangleRadio" name="variables" disabled>
+  <label for="side3oftheTriangleRadio">Side 3 of the Triangle</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">(b) Triangle base length</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">(h) Triangle height</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">(H) Prism Height</label>
+  <input type="number" id="v3"><br><br>
+  
+  <label for="v4" id="variable4">(S1) Side 1 of the Triangle</label>
+  <input type="number" id="v4"><br><br>
+  
+  <label for="v5" id="variable5">(S2) Side 2 of the Triangle</label>
+  <input type="number" id="v5"><br><br>
+  
+  <label for="v6" id="variable6">(S3) Side 3 of the Triangle</label>
+  <input type="number" id="v6"><br><br>
+
+  <button id="btn">compute</button> 
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
